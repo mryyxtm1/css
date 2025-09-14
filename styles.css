@@ -1,0 +1,49 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  height: 30vh;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;   
+  justify-content: flex-start; 
+}
+
+
+.main {
+  height: 40vh;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.footer {
+  height: 30vh;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+}
+
+
+.text {
+  font-size: 24px;     
+  color: #333;         
+  font-weight: bold;    
+  font-family: Arial, sans-serif;
+}
